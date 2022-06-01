@@ -1,2 +1,2 @@
-Copy-Item -Path "$PSScriptRoot\Bell Support.exe" -Destination "C:\Users\Public\Desktop\Bell Support.exe"
+Copy-Item -Path "$PSScriptRoot\TeamViewerQS.exe" -Destination "C:\Users\Public\Desktop\TeamViewerQS.exe"
 Return 0
