@@ -1,6 +1,6 @@
 $app = "Company Portal"
-if (Get-AppxPackage -Name *CompanyPortal*) {
-    write-host "$app App Installed"
+if (Get-AppxPackage -Name *CompanyPortal* -AllUsers) {
+    Write-Output "$app App Installed"
     Exit 0
 }
 else {
